@@ -1,0 +1,204 @@
+/*https://www.landingfolio.com/gallery/bonfire/*/
+/*https://colorhunt.co/palette/137660*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    padding: 44px;
+    text-align: center;
+}
+
+
+
+#header-img {
+    width: 80px;
+    height: 60px;
+    display: inline-block;
+    float: left;
+    background: white;
+
+
+}
+
+#nav-bar {
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+    vertical-align: middle;
+    position: fixed;
+
+
+
+
+
+}
+
+ul {
+    vertical-align: middle;
+    display: inline-block;
+    padding: 8px;
+
+}
+
+ul li {
+    display: inline-block;
+    font-size: 22px;
+    padding: 0 25px;
+
+
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+ul button {
+    padding: 8px 25px;
+}
+
+
+
+.btn-light {
+    border: 1px solid #333;
+    background: #eee;
+
+}
+
+.btn-light:hover {
+    background: #fff;
+}
+
+.btn-nav {
+    padding: 10px 25px;
+    border-radius: 3px
+}
+
+.btn-green {
+    background: #41aaa8;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 3px
+}
+
+.btn-green:hover {
+    background: #105e62;
+}
+
+/*Header styles*/
+
+
+#header {
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .2)), url(../img/header-bg-img.jpg) no-repeat center/cover;
+    height: 80vh;
+}
+
+.container-header-content {
+    color: white;
+    text-align: center;
+    padding: 8% 0;
+    font-size: 22px;
+}
+
+.header-headline {
+    padding-bottom: 25px;
+    font-size: 55px;
+
+}
+
+.btn-header {
+    margin-bottom: 25px;
+}
+
+.headline-paragraph {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/*How it works styles*/
+.how-it-works {
+    text-align: center;
+    padding: 55px;
+
+}
+
+.features-box-htw .fas {
+    color: #105e62;
+}
+
+.features-box-htw h3 {
+    padding-bottom: 25px;
+}
+
+.features-box-htw p {
+    padding-top: 25px;
+}
+
+/*covered-section styles*/
+.cta {
+    background: url(../img/cta-photo.jpg) center/cover no-repeat;
+    width: 100%;
+    height: 600px;
+}
+
+.cta-box {
+    background: #eee;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    width: 600px;
+    padding: 55px;
+}
+
+.cta-box h2 {
+    padding-bottom: 25px;
+}
+
+/*Features section*/
+.features {
+    background: #105e62;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+.features h2 {
+    font-size: 2rem;
+}
+
+.features-box h3 {
+    padding-top: 25px;
+}
+
+.features-box p {
+    padding-top: 25px;
+}
+
+.covered-section {
+    width: 100%;
+    background: #b5525c;
+    color: white;
+
+}
+
+.covered-section-box {
+    width: 50%;
+    float: right;
+    text-align: left;
+    padding-left: 55px;
+
+}
+
+.covered-section-box h2 {
+    padding-bottom: 25px;
+    font-size: 2.5rem;
+    padding-top: 85px;
+}
