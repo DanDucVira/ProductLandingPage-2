@@ -17,15 +17,17 @@
     <header id="header">
         <nav id="nav-bar">
 
+
             <img id="header-img" src="img/logo3.png" alt="">
 
 
             <ul>
 
                 <li><a href="#htw" class="nav-link">How it Works</a></li>
+                <li><a href="#features" class="nav-link">Features</a></li>
                 <li><a href="#contact" class="nav-link">Contact</a></li>
-                <button class=" btn-light btn-nav nav-link">Log in</button>
-                <button class="  btn-nav btn-green nav-link">Get Started</button>
+                <button class=" btn-light btn-nav ">Log in</button>
+                <button class="btn-nav btn-green">Get Started</button>
             </ul>
         </nav>
 
@@ -79,26 +81,26 @@
             </p>
         </div>
     </section>
-    <section class="features">
+    <section id="features" class="features">
         <h2>Features</h2>
         <div class="features-container">
             <div class="flex-container">
                 <div class="features-box">
-                    <i class="fas fa-signal fa-2x"></i>
+                    <i class="fas fa-signal fa-3x"></i>
                     <h3>CUSTOM CAMPAIGNS</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt perferendis quisquam non
                         illum.
                     </p>
                 </div>
                 <div class="features-box">
-                    <i class="fas fa-money-bill-alt  fa-2x"></i>
+                    <i class="fas fa-money-bill-alt  fa-3x"></i>
                     <h3>SMART PROFIT MARGINS</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt perferendis quisquam non
                         illum.
                     </p>
                 </div>
                 <div class="features-box">
-                    <i class="fas fa-mobile-alt  fa-2x"></i>
+                    <i class="fas fa-mobile-alt  fa-3x"></i>
                     <h3>MOBILE FRIENDLY REPORTING</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt perferendis quisquam non
                         illum.
@@ -107,21 +109,21 @@
             </div>
             <div class="flex-container">
                 <div class="features-box">
-                    <i class="fas fa-gift  fa-2x"></i>
+                    <i class="fas fa-gift  fa-3x"></i>
                     <h3>FLEXIBLE FUNDRAISING OPTIONS</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt perferendis quisquam non
                         illum.
                     </p>
                 </div>
                 <div class="features-box">
-                    <i class="fab fa-gratipay  fa-2x"></i>
+                    <i class="fab fa-gratipay  fa-3x"></i>
                     <h3>TOP QUALITY PRINTS</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt perferendis quisquam non
                         illum.
                     </p>
                 </div>
                 <div class="features-box">
-                    <i class="fas fa-chart-line  fa-2x"></i>
+                    <i class="fas fa-chart-line  fa-3x"></i>
                     <h3>SCALABLE PRODUCTION</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt perferendis quisquam non
                         illum.
@@ -144,9 +146,16 @@
     </div>
 
     <section id="contact" class="rdy-start">
-        <h2>Ready to Start?</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil possimus reiciendis necessitatibus.</p>
-        <button class="btn-start">Start Selling Today</button>
+        <div id="GetS" class="contact-container">
+            <h2>Ready to Start?</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil possimus reiciendis necessitatibus.</p>
+
+            <form id="form" action="https://www.freecodecamp.com/email-submit" target="_blank">
+                <input type="email" id="email" value="Enter your email" name="email" min="10" max="20" required
+                    placeholder="Enter email here" target="_blank">
+                <input id="submit" class="btn-submit" type="submit" value="Submit">
+            </form>
+        </div>
     </section>
     <footer>&copy;Shirtz 2019</footer>
     <script src="/js/main.js"></script>

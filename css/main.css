@@ -32,6 +32,7 @@
     text-align: right;
     vertical-align: middle;
     position: fixed;
+    z-index: 999;
 
 
 
@@ -182,10 +183,14 @@ ul button {
     padding-top: 25px;
 }
 
+/*covered section*/
 .covered-section {
     width: 100%;
     background: #b5525c;
     color: white;
+    margin: 0px;
+    padding: 0px;
+
 
 }
 
@@ -201,4 +206,289 @@ ul button {
     padding-bottom: 25px;
     font-size: 2.5rem;
     padding-top: 85px;
+}
+
+/*Contact Section styles*/
+.contact-container {
+    text-align: center;
+    padding: 55px;
+}
+
+.contact-container h2,
+p {
+    padding-bottom: 24px;
+}
+
+label {
+    display: block;
+    padding: 15px;
+}
+
+input {
+    width: 25%;
+    margin: 25px;
+}
+
+#email {
+    padding: 8px;
+}
+
+#submit {
+
+    display: block;
+    margin: 0 auto;
+    padding: 8px 25px;
+    background: #41aaa8;
+    color: white;
+    border: none;
+}
+
+/*Footer sytles*/
+footer {
+    background: #105e62;
+    color: white;
+    text-align: center;
+}
+
+/*media*/
+
+@media screen and (max-width: 668px) {
+    #header-img {
+        display: block;
+        margin: 0 auto;
+        float: none;
+    }
+
+
+
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+
+
+
+    }
+
+    ul li {
+        font-size: 1.2rem;
+        padding: 10px 0;
+
+    }
+
+    .btn-nav {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .container-header-content {
+        padding-top: 305px;
+    }
+
+    .header-headline {
+        font-size: 1.8rem;
+    }
+
+    .flex-container {
+        flex-direction: column;
+    }
+
+    .cta-box {
+        position: static;
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+        height: 100%;
+        opacity: 0.8;
+
+
+    }
+
+
+
+    .covered-section-box {
+        width: 90%;
+        float: none;
+        text-align: center;
+    }
+
+    video {
+        width: 100%;
+
+    }
+
+    input {
+        width: 100%;
+
+        margin: 0 auto;
+
+    }
+
+    #submit {
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #header-img {
+        display: block;
+        margin: 0 auto;
+        float: none;
+    }
+
+
+
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+
+
+
+    }
+
+    ul li {
+        font-size: 1.2rem;
+        padding: 10px 0;
+
+    }
+
+    .btn-nav {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .container-header-content {
+        padding-top: 305px;
+    }
+
+    .header-headline {
+        font-size: 1.8rem;
+    }
+
+    .flex-container {
+        flex-direction: column;
+    }
+
+    .cta-box {
+        position: static;
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+        height: 100%;
+        opacity: 0.8;
+
+
+    }
+
+
+
+    .covered-section-box {
+        width: 90%;
+        float: none;
+        text-align: center;
+    }
+
+    video {
+        width: 100%;
+
+    }
+
+    input {
+        width: 100%;
+
+        margin: 0 auto;
+
+    }
+
+    #submit {
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #header-img {
+        display: block;
+        margin: 0 auto;
+        float: none;
+    }
+
+
+
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+
+
+
+    }
+
+    ul li {
+        font-size: 1.2rem;
+        padding: 10px 0;
+
+    }
+
+    .btn-nav {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .container-header-content {
+        padding-top: 305px;
+    }
+
+    .header-headline {
+        font-size: 1.8rem;
+    }
+
+    .flex-container {
+        flex-direction: column;
+    }
+
+    .cta-box {
+        position: static;
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+        height: 100%;
+        opacity: 0.8;
+
+
+    }
+
+
+
+    .covered-section-box {
+        width: 90%;
+        float: none;
+        text-align: center;
+    }
+
+    video {
+        width: 100%;
+
+    }
+
+    input {
+        width: 100%;
+
+        margin: 0 auto;
+
+    }
+
+    #submit {
+        margin-top: 15px;
+    }
+}
 }
