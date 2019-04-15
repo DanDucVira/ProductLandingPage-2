@@ -1,3 +1,5 @@
+/*https://www.landingfolio.com/gallery/bonfire/*/
+/*https://colorhunt.co/palette/137660*/
 * {
     margin: 0px;
     padding: 0px;
@@ -36,12 +38,13 @@
 
 
 
+
 }
 
 ul {
     vertical-align: middle;
     display: inline-block;
-    padding: 8px;
+    padding: 18px;
 
 }
 
@@ -59,9 +62,7 @@ ul li a {
     color: white;
 }
 
-ul button {
-    padding: 8px 25px;
-}
+
 
 
 
@@ -73,6 +74,7 @@ ul button {
 
 .btn-light:hover {
     background: #fff;
+    cursor: pointer;
 }
 
 .btn-nav {
@@ -90,6 +92,7 @@ ul button {
 
 .btn-green:hover {
     background: #105e62;
+    cursor: pointer;
 }
 
 /*Header styles*/
@@ -125,8 +128,12 @@ ul button {
 /*How it works styles*/
 .how-it-works {
     text-align: center;
-    padding: 55px;
+    padding: 120px;
 
+}
+
+.how-it-works h2 {
+    font-size: 2.2rem;
 }
 
 .features-box-htw .fas {
@@ -135,6 +142,7 @@ ul button {
 
 .features-box-htw h3 {
     padding-bottom: 25px;
+
 }
 
 .features-box-htw p {
@@ -166,7 +174,7 @@ ul button {
     background: #105e62;
     color: white;
     text-align: center;
-    padding: 25px;
+    padding: 120px;
 }
 
 .features h2 {
@@ -187,7 +195,7 @@ ul button {
     background: #b5525c;
     color: white;
     margin: 0px;
-    padding: 0px;
+    padding: 120px;
 
 
 }
@@ -206,10 +214,12 @@ ul button {
     padding-top: 85px;
 }
 
+#video {}
+
 /*Contact Section styles*/
 .contact-container {
     text-align: center;
-    padding: 55px;
+    padding: 120px;
 }
 
 .contact-container h2,
@@ -239,6 +249,7 @@ input {
     background: #41aaa8;
     color: white;
     border: none;
+    cursor: pointer;
 }
 
 /*Footer sytles*/
